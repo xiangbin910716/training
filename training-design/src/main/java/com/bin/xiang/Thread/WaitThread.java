@@ -53,6 +53,15 @@ public class WaitThread {
 //                }
                 System.out.println("flag is false" + new SimpleDateFormat("HH:mm:ss").format(new Date()));
             }
+            synchronized (lock) {
+                System.out.println("enter waiting  lock again....");
+                try {
+                    lock.wait();//不一定能被唤醒,一直等待
+                    System.out.println("wait notify againg .....");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
@@ -74,6 +83,7 @@ public class WaitThread {
                 }
             }
             synchronized (lock) {
+                lock.notify();
                 System.out.println("notify Thread is again synchronized" + new SimpleDateFormat("HH:mm:ss").format(new Date()));
             }
 
