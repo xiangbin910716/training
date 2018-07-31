@@ -1,4 +1,4 @@
-package com.bin.xiang;
+package com.bin.xiang.design.pattern.Singleton;
 
 /**
  * <p></p>
