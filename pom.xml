@@ -71,6 +71,16 @@
                 <artifactId>spring-orm</artifactId>
                 <version>${spring.bom.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.bom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.bom.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
