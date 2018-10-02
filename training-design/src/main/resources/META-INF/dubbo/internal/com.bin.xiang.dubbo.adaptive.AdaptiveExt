@@ -1,0 +1,3 @@
+dubbo=com.bin.xiang.dubbo.adaptive.DubboAdaptiveExt
+spring=com.bin.xiang.dubbo.adaptive.SpringAdaptiveExt
+java=com.bin.xiang.dubbo.adaptive.JavaAdaptiveExt
