@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="remoting" />
         <module name="training-design" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="remoting" target="1.6" />
       <module name="training" target="1.8" />
       <module name="training-design" target="1.8" />
     </bytecodeTargetLevel>
