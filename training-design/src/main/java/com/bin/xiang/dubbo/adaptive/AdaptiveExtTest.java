@@ -22,14 +22,15 @@ public class AdaptiveExtTest {
     public static void main(String[] args) {
         ExtensionLoader<AdaptiveExt> extensionLoader = ExtensionLoader.getExtensionLoader(AdaptiveExt.class);
         AdaptiveExt adaptiveExt = extensionLoader.getAdaptiveExtension();
-        // 1在接口的spi注解上写了dubbo，输出dubbo echo  测试一：SPI注解中有value值
+        // 1在接口的spi注解上写了dubbo，输出dubbo echo  测试一：SPI注解中有value值  ,adaptive.ext为AdaptiveExt的缩写
         //URL url = URL.valueOf("test/localhost/test?adaptive.ext=java");
         //2在接口的spi注解上写了dubbo,url增加了类名=java，输出java echo  测试二：SPI注解中有value值，URL中也有具体的值
-        //URL url = URL.valueOf("test/localhost/test?adaptive.ext=java");
+        URL url = URL.valueOf("test/localhost/test?adaptive.ext=java");
         //3.测试三：SPI注解中有value值，URL中也有具体的值,springAdaptiveExt实现类上有@Adaptive注解 输出spring echo
         //URL url = URL.valueOf("test/localhost/test?adaptive.ext=java");
         //4.SPI注解中有value值,实现类上没有@Adaptive注解，在方法上打上@Adaptive注解，注解中的value与链接中的参数的key一致，链接中的key对应的value就是spi中的name,获取相应的实现类。
-        URL url = URL.valueOf("test/localhost/test?t=java");
+//        URL url = URL.valueOf("test/localhost/test");
+//        URL url = URL.valueOf("test/localhost/test?t=java");
         System.out.println(adaptiveExt.echo("d",url));
 
     }

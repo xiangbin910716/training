@@ -5,7 +5,7 @@ import com.alibaba.dubbo.common.extension.Adaptive;
 import com.alibaba.dubbo.common.extension.SPI;
 
 /**
- * <p></p>
+ * <p>通过getAdaptiveExtensionClass获取到SPI扩展对象Class的实例，然后通过反射方法newInstance()创建这个对象</p>
  * <p>
  * <PRE>
  * <BR>    修改记录
@@ -20,6 +20,7 @@ import com.alibaba.dubbo.common.extension.SPI;
  */
 @SPI("dubbo")
 public interface AdaptiveExt {
-    @Adaptive({"t"})
+    @Adaptive
+//    @Adaptive({"t"})
     String echo(String msg, URL url);
 }

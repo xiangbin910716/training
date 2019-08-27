@@ -142,6 +142,30 @@
                 <artifactId>commons-httpclient</artifactId>
                 <version>${httpclient.version}</version>
             </dependency>
+            <!-- zookeeper curator（馆长）curator支持zookeeper3.5以上的，
+            所以需要单独引入zookeeper 否则报错 KeeperErrorCode = ConnectionLoss-->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>3.4.10</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>4.0.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.zookeeper</groupId>
+                        <artifactId>zookeeper</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId> <!-- Use 'netty-all' for 4.0 or above -->
+                <version>4.1.6.Final</version>
+                <scope>compile</scope>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

@@ -17,7 +17,7 @@ import com.alibaba.dubbo.common.extension.Adaptive;
  * @Date Created in 2018年09月23日 15:34
  * @since 1.0
  */
-@Adaptive
+//@Adaptive
 public class SpringAdaptiveExt implements AdaptiveExt {
     @Override
     public String echo(String msg, URL url) {
