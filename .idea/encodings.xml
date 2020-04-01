@@ -2,6 +2,74 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../ares-remoting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core/config-utility" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core/example-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core/example-raw-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core/example-spring-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/example-core/example-spring-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/orchestration-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/orchestration-example/orchestration-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/orchestration-example/orchestration-spring-boot-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/orchestration-example/orchestration-spring-namespace-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/encrypt-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/encrypt-example/encrypt-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/encrypt-example/encrypt-spring-boot-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/encrypt-example/encrypt-spring-namespace-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/hint-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/other-feature-example/hint-example/hint-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-boot-jpa-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-boot-mybatis-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-namespace-jpa-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-namespace-mybatis-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/transaction-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/transaction-example/transaction-2pc-xa-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/transaction-example/transaction-base-seata-raw-jdbc-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-proxy-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-proxy-example/sharding-proxy-boot-mybatis-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-proxy-example/sharding-proxy-hint-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sharding-jdbc-demo2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sharding-spring-boot-mybatis-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shareding-example-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-admin-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-admin-simple/spring-boot-admin-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-admin-simple/spring-boot-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-banner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-commandLineRunner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-docker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-fastDFS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-hello" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-helloWorld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-jpa-thymeleaf-curd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-jpa/spring-boot-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-jpa/spring-boot-multi-Jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-memcache-spymemcached" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mongodb/spring-boot-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mongodb/spring-boot-multi-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mybatis/spring-boot-mybatis-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mybatis/spring-boot-mybatis-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-mybatis/spring-boot-mybatis-xml-mulidatasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-package" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-package-war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-scheduler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-thymeleaf/spring-boot-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-thymeleaf/spring-boot-thymeleaf-layout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-web-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/training-design" charset="UTF-8" />
   </component>
 </project>

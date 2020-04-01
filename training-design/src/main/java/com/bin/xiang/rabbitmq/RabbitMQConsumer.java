@@ -22,16 +22,17 @@ public class RabbitMQConsumer {
 
     public static void main(String[] args) throws Exception {
         ConnectionFactory connectionFactory = new ConnectionFactory();
-        connectionFactory.setUsername("xiangbin");
-        connectionFactory.setPassword("123456");
-        connectionFactory.setHost("140.143.154.137");
+        connectionFactory.setUsername("crm_rabbit_write");
+        connectionFactory.setPassword("crm_rabbit_write");
+        connectionFactory.setHost("10.16.9.34");
         connectionFactory.setPort(5672);
         Connection conn = connectionFactory.newConnection();
         Channel channel = conn.createChannel();
-        String exchangeName = "exchange_priority";
+        String exchangeName = "exchange";
         channel.exchangeDeclare(exchangeName,"direct",true);
-        String queueName = channel.queueDeclare().getQueue();
-        String routingName = "queue_priority";
+//        String queueName = channel.queueDeclare().getQueue();
+        String routingName = "queue";
+        String queueName = "d.zyu_model_test";
 
         channel.queueBind(queueName,exchangeName,routingName);
         while (true){

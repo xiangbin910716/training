@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-package-war" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-examples/spring-boot-web" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../ares-remoting/pom.xml" />
+        <option value="$PROJECT_DIR$/../incubator-shardingsphere-example/pom.xml" />
+        <option value="$PROJECT_DIR$/../sharding-jdbc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../sharding-spring-boot-mybatis-example/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/../shareding-example-druid/pom.xml" />
       </list>
     </option>
   </component>

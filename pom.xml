@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>training-design</module>
+        <module>shardingjdbc</module>
     </modules>
 
     <properties>
@@ -26,6 +27,7 @@
         <rabbitmq.version>3.6.0</rabbitmq.version>
         <http.client.version>4.4.1</http.client.version>
         <httpclient.version>3.1</httpclient.version>
+        <fastjson.version>1.1.28</fastjson.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -125,6 +127,13 @@
                 <artifactId>amqp-client</artifactId>
                 <version>${rabbitmq.version}</version>
             </dependency>
+            <!-- json  start -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+            <!-- json  end -->
             <!--httpclient -->
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
@@ -136,7 +145,19 @@
                 <artifactId>httpmime</artifactId>
                 <version>${http.client.version}</version>
             </dependency>
-
+            <!-- kafka-->
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka_2.11</artifactId>
+                <version>0.11.0.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- kafka-->
             <dependency>
                 <groupId>commons-httpclient</groupId>
                 <artifactId>commons-httpclient</artifactId>
@@ -148,6 +169,16 @@
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
                 <version>3.4.10</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.curator</groupId>

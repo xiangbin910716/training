@@ -6,14 +6,192 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="remoting" />
+        <module name="example-spring-jpa" />
+        <module name="sharding-spring-boot-jpa-example" />
         <module name="training-design" />
+        <module name="spring-boot-shiro" />
+        <module name="spring-boot-mongodb" />
+        <module name="encrypt-spring-namespace-example" />
+        <module name="spring-boot-scheduler" />
+        <module name="sharedingshpere" />
+        <module name="spring-boot-thymeleaf-layout" />
+        <module name="spring-boot-Jpa" />
+        <module name="spring-boot-fastDFS" />
+        <module name="spring-boot-multi-mongodb" />
+        <module name="spring-boot-banner" />
+        <module name="spring-boot-admin-server" />
+        <module name="sharding-spring-namespace-mybatis-example" />
+        <module name="spring-boot-thymeleaf" />
+        <module name="springboot" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-memcache-spymemcached" />
+        <module name="spring-boot-hello" />
+        <module name="sharding-spring-boot-mybatis-example" />
+        <module name="orchestration-raw-jdbc-example" />
+        <module name="spring-boot-actuator" />
+        <module name="spring-boot-package-war" />
+        <module name="spring-boot-mail" />
+        <module name="spring-boot-web" />
+        <module name="demo" />
+        <module name="springboot-sharedingsphere" />
+        <module name="orchestration-spring-namespace-example" />
+        <module name="sharding-proxy-boot-mybatis-example" />
+        <module name="spring-boot-mybatis-annotation-mulidatasource" />
+        <module name="spring-boot-multi-Jpa" />
+        <module name="example-api" />
+        <module name="spring-boot-commandLineRunner" />
+        <module name="remoting" />
+        <module name="sharding-proxy-hint-example" />
+        <module name="sharding-jdbc-example (1) (com.engrz.demo.sharding.jdbc)" />
+        <module name="transaction-2pc-xa-raw-jdbc-example" />
+        <module name="spring-boot-mybatis-xml" />
+        <module name="sharding-jdbc-base" />
+        <module name="hint-raw-jdbc-example" />
+        <module name="encrypt-spring-boot-example" />
+        <module name="spring-boot-package" />
+        <module name="example-raw-jdbc" />
+        <module name="orchestration-spring-boot-example" />
+        <module name="spring-boot-webflux" />
+        <module name="shareding-example-druid" />
+        <module name="transaction-base-seata-raw-jdbc-example" />
+        <module name="spring-boot-admin-client" />
+        <module name="spring-boot-jpa-thymeleaf-curd" />
+        <module name="spring-boot-web-thymeleaf" />
+        <module name="spring-boot-helloworld" />
+        <module name="spring-boot-file-upload" />
+        <module name="sharding-spring-namespace-jpa-example" />
+        <module name="example-spring-mybatis" />
+        <module name="spring-boot-docker" />
+        <module name="sharding-raw-jdbc-example" />
+        <module name="spring-boot-mybatis-annotation" />
+        <module name="spring-boot-mybatis-xml-mulidatasource" />
+        <module name="sharding-sql-test" />
+        <module name="shardingjdbc" />
+        <module name="config-utility" />
+        <module name="encrypt-raw-jdbc-example" />
+        <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-utility" target="1.7" />
+      <module name="demo" target="1.8" />
+      <module name="demo (1) (com.demo)" target="1.8" />
+      <module name="encrypt-example" target="1.7" />
+      <module name="encrypt-raw-jdbc-example" target="1.7" />
+      <module name="encrypt-spring-boot-example" target="1.7" />
+      <module name="encrypt-spring-namespace-example" target="1.7" />
+      <module name="example-api" target="1.7" />
+      <module name="example-core" target="1.7" />
+      <module name="example-raw-jdbc" target="1.7" />
+      <module name="example-spring-jpa" target="1.7" />
+      <module name="example-spring-mybatis" target="1.7" />
+      <module name="hint-example" target="1.7" />
+      <module name="hint-raw-jdbc-example" target="1.7" />
+      <module name="orchestration-example" target="1.7" />
+      <module name="orchestration-raw-jdbc-example" target="1.7" />
+      <module name="orchestration-spring-boot-example" target="1.7" />
+      <module name="orchestration-spring-namespace-example" target="1.7" />
+      <module name="other-feature-example" target="1.7" />
       <module name="remoting" target="1.6" />
+      <module name="sharding-example" target="1.7" />
+      <module name="sharding-jdbc-base" target="1.8" />
+      <module name="sharding-jdbc-demo" target="1.8" />
+      <module name="sharding-jdbc-example" target="1.7" />
+      <module name="sharding-jdbc-example (1) (com.engrz.demo.sharding.jdbc)" target="1.8" />
+      <module name="sharding-proxy-boot-mybatis-example" target="1.7" />
+      <module name="sharding-proxy-example" target="1.7" />
+      <module name="sharding-proxy-hint-example" target="1.7" />
+      <module name="sharding-raw-jdbc-example" target="1.7" />
+      <module name="sharding-spring-boot-jpa-example" target="1.7" />
+      <module name="sharding-spring-boot-mybatis-example" target="1.7" />
+      <module name="sharding-spring-namespace-jpa-example" target="1.7" />
+      <module name="sharding-spring-namespace-mybatis-example" target="1.7" />
+      <module name="sharding-sql-test" target="1.8" />
+      <module name="shardingjdbc" target="1.8" />
+      <module name="shardingsphere-example" target="1.7" />
+      <module name="shareding-example-druid" target="1.8" />
+      <module name="sharedingshpere" target="1.8" />
+      <module name="spring-boot-actuator" target="1.8" />
+      <module name="spring-boot-admin-client" target="1.8" />
+      <module name="spring-boot-admin-server" target="1.8" />
+      <module name="spring-boot-admin-simple" target="1.8" />
+      <module name="spring-boot-banner" target="1.8" />
+      <module name="spring-boot-commandLineRunner" target="1.8" />
+      <module name="spring-boot-docker" target="1.8" />
+      <module name="spring-boot-examples" target="1.8" />
+      <module name="spring-boot-fastDFS" target="1.8" />
+      <module name="spring-boot-file-upload" target="1.8" />
+      <module name="spring-boot-hello" target="1.8" />
+      <module name="spring-boot-helloworld" target="1.8" />
+      <module name="spring-boot-Jpa" target="1.8" />
+      <module name="spring-boot-jpa-thymeleaf-curd" target="1.8" />
+      <module name="spring-boot-mail" target="1.8" />
+      <module name="spring-boot-memcache-spymemcached" target="1.8" />
+      <module name="spring-boot-mongodb" target="1.8" />
+      <module name="spring-boot-multi-Jpa" target="1.8" />
+      <module name="spring-boot-multi-mongodb" target="1.8" />
+      <module name="spring-boot-mybatis-annotation" target="1.8" />
+      <module name="spring-boot-mybatis-annotation-mulidatasource" target="1.8" />
+      <module name="spring-boot-mybatis-xml" target="1.8" />
+      <module name="spring-boot-mybatis-xml-mulidatasource" target="1.8" />
+      <module name="spring-boot-package" target="1.8" />
+      <module name="spring-boot-package-war" target="1.8" />
+      <module name="spring-boot-rabbitmq" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-scheduler" target="1.8" />
+      <module name="spring-boot-shiro" target="1.8" />
+      <module name="spring-boot-thymeleaf" target="1.8" />
+      <module name="spring-boot-thymeleaf-layout" target="1.8" />
+      <module name="spring-boot-web" target="1.8" />
+      <module name="spring-boot-web-thymeleaf" target="1.8" />
+      <module name="spring-boot-webflux" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springboot-sharedingsphere" target="1.8" />
       <module name="training" target="1.8" />
       <module name="training-design" target="1.8" />
+      <module name="transaction-2pc-xa-raw-jdbc-example" target="1.7" />
+      <module name="transaction-base-seata-raw-jdbc-example" target="1.7" />
+      <module name="transaction-example" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="shareding-example-druid" options="-parameters" />
+      <module name="sharedingshpere" options="-parameters" />
+      <module name="spring-boot-Jpa" options="-parameters" />
+      <module name="spring-boot-actuator" options="-parameters" />
+      <module name="spring-boot-admin-client" options="-parameters" />
+      <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="spring-boot-banner" options="-parameters" />
+      <module name="spring-boot-commandLineRunner" options="-parameters" />
+      <module name="spring-boot-docker" options="-parameters" />
+      <module name="spring-boot-fastDFS" options="-parameters" />
+      <module name="spring-boot-file-upload" options="-parameters" />
+      <module name="spring-boot-hello" options="-parameters" />
+      <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-jpa-thymeleaf-curd" options="-parameters" />
+      <module name="spring-boot-mail" options="-parameters" />
+      <module name="spring-boot-memcache-spymemcached" options="-parameters" />
+      <module name="spring-boot-mongodb" options="-parameters" />
+      <module name="spring-boot-multi-Jpa" options="-parameters" />
+      <module name="spring-boot-multi-mongodb" options="-parameters" />
+      <module name="spring-boot-mybatis-annotation" options="-parameters" />
+      <module name="spring-boot-mybatis-annotation-mulidatasource" options="-parameters" />
+      <module name="spring-boot-mybatis-xml" options="-parameters" />
+      <module name="spring-boot-mybatis-xml-mulidatasource" options="-parameters" />
+      <module name="spring-boot-package" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
+      <module name="spring-boot-scheduler" options="-parameters" />
+      <module name="spring-boot-shiro" options="-parameters" />
+      <module name="spring-boot-thymeleaf" options="-parameters" />
+      <module name="spring-boot-thymeleaf-layout" options="-parameters" />
+      <module name="spring-boot-web" options="-parameters" />
+      <module name="spring-boot-web-thymeleaf" options="-parameters" />
+      <module name="spring-boot-webflux" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springboot-sharedingsphere" options="-parameters" />
+    </option>
   </component>
 </project>

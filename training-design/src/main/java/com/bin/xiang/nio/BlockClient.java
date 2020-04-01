@@ -1,7 +1,5 @@
 package com.bin.xiang.nio;
 
-import com.sun.xml.internal.bind.api.impl.NameConverter;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
