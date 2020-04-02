@@ -12,11 +12,28 @@
     <artifactId>shardingjdbc</artifactId>
     <packaging>jar</packaging>
 
+
+    <properties>
+        <sharding-jdbc.version>4.0.0</sharding-jdbc.version>
+        <dbcp2.version>2.7.0</dbcp2.version>
+        <mysql-connector.version>8.0.18</mysql-connector.version>
+    </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>${dbcp2.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-jdbc-core</artifactId>
-            <version>${3.0.1}</version>
+            <version>${sharding-jdbc.version}</version>
         </dependency>
     </dependencies>
 

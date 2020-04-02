@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example-spring-jpa" />
         <module name="sharding-spring-boot-jpa-example" />
+        <module name="shardingjdbc" />
         <module name="training-design" />
         <module name="spring-boot-shiro" />
         <module name="spring-boot-mongodb" />
@@ -15,64 +15,75 @@
         <module name="spring-boot-scheduler" />
         <module name="sharedingshpere" />
         <module name="spring-boot-thymeleaf-layout" />
+        <module name="jdbc-repository" />
         <module name="spring-boot-Jpa" />
         <module name="spring-boot-fastDFS" />
         <module name="spring-boot-multi-mongodb" />
-        <module name="spring-boot-banner" />
-        <module name="spring-boot-admin-server" />
-        <module name="sharding-spring-namespace-mybatis-example" />
+        <module name="spring-boot-mybatis-xml-mulidatasource" />
+        <module name="sharding-spring-boot-mybatis-example" />
+        <module name="springboot-sharedingsphere" />
         <module name="spring-boot-thymeleaf" />
+        <module name="repository-api" />
+        <module name="mybatis-repository" />
+        <module name="sharding-spring-namespace-mybatis-example" />
         <module name="springboot" />
         <module name="spring-boot-redis" />
         <module name="spring-boot-memcache-spymemcached" />
         <module name="spring-boot-hello" />
-        <module name="sharding-spring-boot-mybatis-example" />
+        <module name="raw-jdbc-nodep-example" />
+        <module name="spring-boot-orche-jpa-example" />
+        <module name="spring-namespace-orche-jpa-example" />
         <module name="orchestration-raw-jdbc-example" />
         <module name="spring-boot-actuator" />
         <module name="spring-boot-package-war" />
+        <module name="spring-boot-orche-mybatis-example" />
         <module name="spring-boot-mail" />
-        <module name="spring-boot-web" />
         <module name="demo" />
-        <module name="springboot-sharedingsphere" />
+        <module name="spring-boot-admin-server" />
+        <module name="example-utility" />
+        <module name="spring-namespace-nodep-jpa-example" />
         <module name="orchestration-spring-namespace-example" />
         <module name="sharding-proxy-boot-mybatis-example" />
+        <module name="jpa-repository" />
+        <module name="sharding-proxy-boot-jpa-example" />
         <module name="spring-boot-mybatis-annotation-mulidatasource" />
-        <module name="spring-boot-multi-Jpa" />
-        <module name="example-api" />
+        <module name="sharding-jdbc-base" />
+        <module name="spring-namespace-nodep-mybatis-example" />
+        <module name="spring-namespace-orche-mybatis-example" />
         <module name="spring-boot-commandLineRunner" />
         <module name="remoting" />
-        <module name="sharding-proxy-hint-example" />
         <module name="sharding-jdbc-example (1) (com.engrz.demo.sharding.jdbc)" />
         <module name="transaction-2pc-xa-raw-jdbc-example" />
         <module name="spring-boot-mybatis-xml" />
-        <module name="sharding-jdbc-base" />
+        <module name="spring-boot-mybatis-annotation" />
         <module name="hint-raw-jdbc-example" />
         <module name="encrypt-spring-boot-example" />
         <module name="spring-boot-package" />
-        <module name="example-raw-jdbc" />
         <module name="orchestration-spring-boot-example" />
         <module name="spring-boot-webflux" />
         <module name="shareding-example-druid" />
         <module name="transaction-base-seata-raw-jdbc-example" />
         <module name="spring-boot-admin-client" />
-        <module name="spring-boot-jpa-thymeleaf-curd" />
         <module name="spring-boot-web-thymeleaf" />
         <module name="spring-boot-helloworld" />
+        <module name="spring-boot-nodep-mybatis-example" />
         <module name="spring-boot-file-upload" />
         <module name="sharding-spring-namespace-jpa-example" />
-        <module name="example-spring-mybatis" />
         <module name="spring-boot-docker" />
         <module name="sharding-raw-jdbc-example" />
-        <module name="spring-boot-mybatis-annotation" />
-        <module name="spring-boot-mybatis-xml-mulidatasource" />
+        <module name="spring-boot-nodep-jpa-example" />
+        <module name="spring-boot-banner" />
+        <module name="raw-jdbc-orche-example" />
+        <module name="spring-boot-web" />
         <module name="sharding-sql-test" />
-        <module name="shardingjdbc" />
-        <module name="config-utility" />
+        <module name="spring-boot-jpa-thymeleaf-curd" />
+        <module name="spring-boot-multi-Jpa" />
         <module name="encrypt-raw-jdbc-example" />
         <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-repository" target="1.7" />
       <module name="config-utility" target="1.7" />
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.demo)" target="1.8" />
@@ -85,19 +96,27 @@
       <module name="example-raw-jdbc" target="1.7" />
       <module name="example-spring-jpa" target="1.7" />
       <module name="example-spring-mybatis" target="1.7" />
+      <module name="example-utility" target="1.7" />
       <module name="hint-example" target="1.7" />
       <module name="hint-raw-jdbc-example" target="1.7" />
+      <module name="jdbc-repository" target="1.7" />
+      <module name="jpa-repository" target="1.7" />
+      <module name="mybatis-repository" target="1.7" />
       <module name="orchestration-example" target="1.7" />
       <module name="orchestration-raw-jdbc-example" target="1.7" />
       <module name="orchestration-spring-boot-example" target="1.7" />
       <module name="orchestration-spring-namespace-example" target="1.7" />
       <module name="other-feature-example" target="1.7" />
+      <module name="raw-jdbc-nodep-example" target="1.7" />
+      <module name="raw-jdbc-orche-example" target="1.7" />
       <module name="remoting" target="1.6" />
+      <module name="repository-api" target="1.7" />
       <module name="sharding-example" target="1.7" />
       <module name="sharding-jdbc-base" target="1.8" />
       <module name="sharding-jdbc-demo" target="1.8" />
       <module name="sharding-jdbc-example" target="1.7" />
       <module name="sharding-jdbc-example (1) (com.engrz.demo.sharding.jdbc)" target="1.8" />
+      <module name="sharding-proxy-boot-jpa-example" target="1.7" />
       <module name="sharding-proxy-boot-mybatis-example" target="1.7" />
       <module name="sharding-proxy-example" target="1.7" />
       <module name="sharding-proxy-hint-example" target="1.7" />
@@ -134,6 +153,12 @@
       <module name="spring-boot-mybatis-annotation-mulidatasource" target="1.8" />
       <module name="spring-boot-mybatis-xml" target="1.8" />
       <module name="spring-boot-mybatis-xml-mulidatasource" target="1.8" />
+      <module name="spring-boot-nodep-example" target="1.7" />
+      <module name="spring-boot-nodep-jpa-example" target="1.7" />
+      <module name="spring-boot-nodep-mybatis-example" target="1.7" />
+      <module name="spring-boot-orche-example" target="1.7" />
+      <module name="spring-boot-orche-jpa-example" target="1.7" />
+      <module name="spring-boot-orche-mybatis-example" target="1.7" />
       <module name="spring-boot-package" target="1.8" />
       <module name="spring-boot-package-war" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
@@ -145,6 +170,12 @@
       <module name="spring-boot-web" target="1.8" />
       <module name="spring-boot-web-thymeleaf" target="1.8" />
       <module name="spring-boot-webflux" target="1.8" />
+      <module name="spring-namespace-nodep-example" target="1.7" />
+      <module name="spring-namespace-nodep-jpa-example" target="1.7" />
+      <module name="spring-namespace-nodep-mybatis-example" target="1.7" />
+      <module name="spring-namespace-orche-example" target="1.7" />
+      <module name="spring-namespace-orche-jpa-example" target="1.7" />
+      <module name="spring-namespace-orche-mybatis-example" target="1.7" />
       <module name="springboot" target="1.8" />
       <module name="springboot-sharedingsphere" target="1.8" />
       <module name="training" target="1.8" />
