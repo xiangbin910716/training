@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-namespace-mybatis-example/sharding-spring-namespace-mybatis-example.iml" filepath="$PROJECT_DIR$/../incubator-shardingsphere-example/sharding-jdbc-example/sharding-example/sharding-spring-namespace-mybatis-example/sharding-spring-namespace-mybatis-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/../sharding-jdbc-demo/sharding-sql-test/sharding-sql-test.iml" filepath="$PROJECT_DIR$/../sharding-jdbc-demo/sharding-sql-test/sharding-sql-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/shardingjdbc/shardingjdbc.iml" filepath="$PROJECT_DIR$/shardingjdbc/shardingjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shardingjdbc-mybatis/shardingjdbc-mybatis.iml" filepath="$PROJECT_DIR$/shardingjdbc-mybatis/shardingjdbc-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-shardingsphere-example/shardingsphere-example.iml" filepath="$PROJECT_DIR$/../incubator-shardingsphere-example/shardingsphere-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/../shareding-example-druid/shareding-example-druid.iml" filepath="$PROJECT_DIR$/../shareding-example-druid/shareding-example-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot/sharedingshpere.iml" filepath="$PROJECT_DIR$/../springboot/sharedingshpere.iml" />

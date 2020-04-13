@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+        <setting name="lazyLoadingEnabled" value="false"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--sql 日志前缀-->
+        <setting name="logPrefix" value="minsu.service.basedata.sql."/>
+        <!-- 驼峰转换 -->
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
+
+</configuration>

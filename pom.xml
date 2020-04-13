@@ -11,6 +11,7 @@
     <modules>
         <module>training-design</module>
         <module>shardingjdbc</module>
+        <module>shardingjdbc-mybatis</module>
     </modules>
 
     <properties>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.UserDao" >
+  <resultMap id="BaseResultMap" type="entity.User" >
+    <id column="user_id" property="userId" jdbcType="BIGINT" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="CHAR" />
+    <result column="pwd_plain" property="pwdPlain" jdbcType="VARCHAR" />
+    <result column="pwd_cipher" property="pwdCipher" jdbcType="VARCHAR" />
+    <result column="reg_date" property="regDate" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    user_id, user_name, sex, pwd_plain, pwd_cipher, reg_date
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from t_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="entity.User" >
+    insert into t_user (user_id, user_name, sex,
+      pwd_plain, pwd_cipher, reg_date
+      )
+    values (#{userId,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{sex,jdbcType=CHAR}, 
+      #{pwdPlain,jdbcType=VARCHAR}, #{pwdCipher,jdbcType=VARCHAR}, #{regDate,jdbcType=DATE}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="entity.User" >
+    insert into t_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="userName != null" >
+        user_name,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="pwdPlain != null" >
+        pwd_plain,
+      </if>
+      <if test="pwdCipher != null" >
+        pwd_cipher,
+      </if>
+      <if test="regDate != null" >
+        reg_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=CHAR},
+      </if>
+      <if test="pwdPlain != null" >
+        #{pwdPlain,jdbcType=VARCHAR},
+      </if>
+      <if test="pwdCipher != null" >
+        #{pwdCipher,jdbcType=VARCHAR},
+      </if>
+      <if test="regDate != null" >
+        #{regDate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="entity.User" >
+    update t_user
+    <set >
+      <if test="userName != null" >
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=CHAR},
+      </if>
+      <if test="pwdPlain != null" >
+        pwd_plain = #{pwdPlain,jdbcType=VARCHAR},
+      </if>
+      <if test="pwdCipher != null" >
+        pwd_cipher = #{pwdCipher,jdbcType=VARCHAR},
+      </if>
+      <if test="regDate != null" >
+        reg_date = #{regDate,jdbcType=DATE},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="entity.User" >
+    update t_user
+    set user_name = #{userName,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=CHAR},
+      pwd_plain = #{pwdPlain,jdbcType=VARCHAR},
+      pwd_cipher = #{pwdCipher,jdbcType=VARCHAR},
+      reg_date = #{regDate,jdbcType=DATE}
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+</mapper>
