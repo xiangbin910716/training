@@ -25,7 +25,7 @@
         <lombok.version>1.16.18</lombok.version>
         <netty.version>4.1.5.Final</netty.version>
         <!-- rabbitmq start -->
-        <rabbitmq.version>3.6.0</rabbitmq.version>
+        <rabbitmq.version>4.8.0</rabbitmq.version>
         <http.client.version>4.4.1</http.client.version>
         <httpclient.version>3.1</httpclient.version>
         <fastjson.version>1.1.28</fastjson.version>
