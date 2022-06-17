@@ -28,7 +28,7 @@
         <rabbitmq.version>3.6.0</rabbitmq.version>
         <http.client.version>4.4.1</http.client.version>
         <httpclient.version>3.1</httpclient.version>
-        <fastjson.version>1.1.28</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <servlet_version>3.1.0</servlet_version>
     </properties>
     <dependencyManagement>
