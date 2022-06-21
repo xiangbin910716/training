@@ -16,7 +16,7 @@
     <properties>
         <sharding-jdbc.version>4.0.0</sharding-jdbc.version>
         <dbcp2.version>2.7.0</dbcp2.version>
-        <mysql-connector.version>8.0.18</mysql-connector.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
     </properties>
 
     <dependencies>
